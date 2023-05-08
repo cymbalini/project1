@@ -27,6 +27,12 @@ header {
         padding: 10px;
         z-index: 1;
         flex-basis: 20%;
+        @media all and (min-width: 700px) {  
+                font-size: 6rem;
+        }
+        @media all and (min-width: 2400px) {
+                font-size: 9rem;
+        }
     }
     a {
         color: inherit;
@@ -63,14 +69,5 @@ h2 {
     text-shadow: 0 0 20px black;
 }
 
-@media all and (min-width: 700px) {
-    header h1 {
-        font-size: 6rem;
-    }
-}
 
-@media all and (min-width: 2400px) {
-    header h1 {
-        font-size: 9rem;
-    }
-}
+
