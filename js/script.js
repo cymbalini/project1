@@ -1,5 +1,6 @@
 'use strict'
-console.log(1)
+//to jest stała w JS
+// console.log(1)
 const btn=document.querySelector('header a')
 const h1=document.querySelector('header h1')
 const h1text=h1.innerText
@@ -13,4 +14,4 @@ btn.addEventListener('click',function(){
     counter%2==0 ? h1.innerText=h1text : h1.innerText='Bedzie pan zadowolony'
 
 })
-console.log(2)
+// console.log(2)
